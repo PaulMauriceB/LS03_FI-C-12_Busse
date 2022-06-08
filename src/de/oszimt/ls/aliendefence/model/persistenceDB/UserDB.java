@@ -1,4 +1,4 @@
-package de.oszimt.ls.aliendefence.toDo;
+package de.oszimt.ls.aliendefence.model.persistenceDB;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -7,7 +7,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 import de.oszimt.ls.aliendefence.model.persistence.IUserPersistance;
-import de.oszimt.ls.aliendefence.model.persistenceDB.AccessDB;
+import de.oszimt.ls.aliendefence.model.User;
 
 /**
  * databaseconnection for userobjects, Story usermanagement
